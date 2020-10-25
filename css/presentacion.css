@@ -1,0 +1,53 @@
+
+/* ESTILOS PRESENTACIÓN */
+
+.presentacion{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--claro);
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sobremi{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 15%;
+}
+
+
+.sobremi h2, .sobremi p{
+    font-size: 1.5em;
+}
+
+.sobremi h1{
+    color: var(--verdePrimario);
+    font-size: 3em;
+}
+
+.sobremi button{
+    width: 50%;
+    border-radius: 15px;
+    border: none;
+    background-color: #177E89;
+    font-size: 1em;
+    padding: 1em;
+    margin-top: 7%;
+} 
+
+.sobremi button:hover{
+    background-color: var(--verdeSecundario);
+}
+
+.sobremi button a, .sobremi button a:hover{
+    color: var(--claro);
+}
+
+.ilustracion{
+    width: 40%;
+    margin-right: 15%;
+}

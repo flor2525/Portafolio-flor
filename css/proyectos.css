@@ -1,0 +1,66 @@
+
+/* INICIO ESTILOS PROYECTOS */
+
+.proyectos{
+    margin-top: 3vh;
+    background-color: #FAFAFA;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;  
+}
+
+.texto2{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto2 p{
+    margin-top: 2%;
+}
+
+.trabajos{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 4%;
+    width: 1200px;
+    height: auto;
+    margin-bottom: 7%;
+}
+
+.trabajo{
+    background-color: #EFEFEF;
+    width: 30%; 
+    height: 300px;
+    margin: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+}
+
+#porfolio{
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+
+.trabajo a{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    color: #343435;
+}
+
+.trabajo:hover{
+    border: 2px solid var(--verdePrimario);
+}
+
+/* FIN ESTILOS PROYECTOS */

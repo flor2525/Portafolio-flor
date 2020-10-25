@@ -1,0 +1,64 @@
+
+/* ESTILOS GENERALES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Reem Kufi', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+
+section{
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    width: 100%;
+}
+
+
+a{
+    text-decoration: none; 
+}
+
+
+li{
+    list-style: none;
+}
+
+
+.titular{
+    font-size: 3em;
+    padding-top: 150px;
+}
+
+
+.bajada{
+    font-size: 1.5em;
+    width: 50vw;
+}
+
+/* Variables */
+
+:root{
+    --verdePrimario: #177E89;
+    --verdeSecundario: #39949e;
+    --salmon: #FEC3A6;
+    --oscuro: #343435;
+    --claro: #fafafa;
+}
+
+/* Fin variables */
+/* FIN ESTILOS GENERALES */
+
+/* AJUSTES RESPONSIVE-DESIGN */
+/* PENDIENTE */
+
+   
+

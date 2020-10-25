@@ -1,0 +1,36 @@
+
+/* INICIO ESTILOS CONTACTO */
+
+.contacto{
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorcontacto{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    background-color: var(--claro);
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 2%;
+    margin-top: 5vh;
+}
+
+.contactame{
+    width: 50%;
+}
+
+.escribime{
+    width: 50%;
+    display: flex;
+    flex-flow:  column nowrap;
+}
+input{
+    width: 100%;
+}

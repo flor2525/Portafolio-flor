@@ -1,0 +1,45 @@
+
+/* INICIO ESTILOS FOOTER */
+
+footer{
+    background-color:#177E89; 
+    height: 30vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navfooter ul{
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 4px;
+}
+
+.navfooter ul li a{
+    color: #FAFAFA;
+    padding: 15px;   
+}
+
+.navfooter ul li a:hover{
+color: #FEC3A6;
+}
+
+.socialmedia a i{
+
+    font-size: 1.5em;
+    color: #FAFAFA;
+    margin-top: 1em;
+    padding: 1em;
+}
+.socialmedia a i:hover{
+    color: #FEC3A6;
+}
+
+.firma{
+    color: #FAFAFA;
+    font-size: 1.5em;
+    
+}
+
+/* FIN ESTILOS FOOTER */

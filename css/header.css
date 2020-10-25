@@ -1,0 +1,62 @@
+
+/* INICIO ESTILOS HEADER */
+
+header{
+    background-color: rgba(254, 195, 166, 0.65);
+    box-shadow: 0 0 20px 0 rgba(46, 46, 46, 0.384);
+    width: 100%;
+    display: flex;
+    height: 12vh;
+    padding: 30px;
+    position: fixed;
+    justify-content: flex-end;
+}
+
+/* Navegación */
+
+header nav{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav ul li a{
+    color: var(--oscuro);
+    font-size: 1.3em;
+    padding: 0 13px;  
+}
+
+header nav ul li a:hover{
+    color: var(--verdePrimario);
+}
+
+.botoncontacto{
+    background-color: var(--verdePrimario);
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+.botoncontacto a{
+    color: var(--claro);
+}
+
+.botoncontacto:hover{
+    color: var(--claro);
+    background-color: var(--verdeSecundario);
+}
+
+.botoncontacto a, .botoncontacto a:hover{
+    color: var(--claro);   
+}
+
+/* Fin navegación */
+
+/* FIN ESTILOS HEADER */
+
+

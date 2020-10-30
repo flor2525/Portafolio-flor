@@ -18,6 +18,7 @@ footer{
 
 .navfooter ul li a{
     color: #FAFAFA;
+    font-size: 0.8rem;
     padding: 15px;   
 }
 
@@ -27,10 +28,10 @@ color: #FEC3A6;
 
 .socialmedia a i{
 
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #FAFAFA;
-    margin-top: 1em;
-    padding: 1em;
+    margin-top: 15px;
+    padding: 15px;
 }
 .socialmedia a i:hover{
     color: #FEC3A6;
@@ -38,7 +39,8 @@ color: #FEC3A6;
 
 .firma{
     color: #FAFAFA;
-    font-size: 1.5em;
+    font-size: 1rem;
+    margin-top: 15px;
     
 }
 

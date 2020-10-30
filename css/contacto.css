@@ -1,10 +1,12 @@
 
 /* INICIO ESTILOS CONTACTO */
 
+/* GENERAL DE LA SECCIÓN */
+
 .contacto{
     background-color: #EFEFEF;
     width: 100%;
-    height: 80vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,25 +14,159 @@
 
 .contenedorcontacto{
     display: flex;
-    width: 1200px;
-    height: 600px;
+    width: 1000px;
+    height: auto;
     background-color: var(--claro);
     display: flex;
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, .2);
     padding: 2%;
-    margin-top: 5vh;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
 }
+
+/* FIN GENERAL DE LA SECCIÓN */
+
+/* CONTACTAME */
 
 .contactame{
     width: 50%;
 }
 
+.contactame h2, .escribime h2{
+   font-size: 2rem;
+   color: var(--oscuro);
+}
+
+.contactame p{
+    font-size: 1rem;
+    width: 70%;
+    margin-top: 3%;
+    color: var(--oscuro);
+}
+
+.redes{
+    margin-top: 15%;
+    color: var(--oscuro);
+}
+
+.redes ul li{
+    margin-bottom: 3%;
+}
+.redes ul li i{
+    margin-right: 20px;
+    font-size: 20px;
+    color: var(--oscuro);
+    border-radius: 100px;
+    padding: 10px 10px;
+}
+
+.redes ul li a{
+    font-size: 15px;
+    color: var(--oscuro);
+}
+
+.redes ul li:hover i{
+    background-color: var(--verdePrimario);
+    color: var(--claro);  
+    
+} 
+
+.redes ul li:hover a{
+    color: var(--verdePrimario);   
+}
+
+/* FIN CONTACTAME */
+
+/* FORMULARIO */
+
 .escribime{
     width: 50%;
     display: flex;
     flex-flow:  column nowrap;
+    justify-content: flex-start;
+}
+
+.formulario{
+    margin-top: 5%;
 }
 input{
     width: 100%;
+    height: 20px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-top: 10px;
 }
+
+.row{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.row div{
+    width: 45%;
+}
+
+label{
+    color: var(--oscuro);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 8px;
+    margin-top: 10px;
+}
+
+.escribime button{
+    background-color: var(--verdePrimario);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: var(--claro);
+    margin-top: 5%;
+    text-transform: uppercase;
+}
+
+.escribime button:hover{
+    color: var(--claro);
+    background-color: var(--verdeSecundario);
+    cursor: pointer;
+}
+
+.formulario textarea{
+    border: 2px solid var(--salmon);
+}
+
+.formulario input:focus, .formulario textarea:focus{
+    outline-style: none;
+}
+
+.formulario input:invalid{
+    border: 2px solid var(--salmon);
+    background-color: vae(--claro);
+}
+
+.formulario input:valid{
+    box-shadow: 0px 1px 3px 3px rgba(23,126,137,0.63);
+    background-color: vae(--claro);
+}
+
+
+
+
+/* FIN FORMULARIO */
+
+
+
+
+

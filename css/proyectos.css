@@ -2,7 +2,6 @@
 /* INICIO ESTILOS PROYECTOS */
 
 .proyectos{
-    margin-top: 3vh;
     background-color: #FAFAFA;
     width: 100%;
     height: auto;
@@ -28,14 +27,14 @@
     display: flex;
     flex-flow: row wrap;
     margin-top: 4%;
-    width: 1200px;
+    width: 1000px;
     height: auto;
     margin-bottom: 7%;
 }
 
 .trabajo{
     background-color: #EFEFEF;
-    width: 30%; 
+    width: 300px; 
     height: 300px;
     margin: 8px;
     display: flex;
@@ -47,8 +46,8 @@
 }
 
 #porfolio{
-    margin-bottom: 25px;
-    margin-top: 80px;
+    margin-bottom: 30px;
+    margin-top: 60px;
 }
 
 .trabajo a{

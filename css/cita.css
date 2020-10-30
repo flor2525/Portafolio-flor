@@ -3,7 +3,7 @@
 .cita{
     background-color: #177E89;
     width: 100%;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .cita i{
-    font-size: 120px;
+    font-size: 5rem;
     color: #FAFAFA;
 }
 
@@ -21,8 +21,12 @@
     display: flex;
     flex-flow: column wrap;
     text-align: center;
-    font-size: 1.5em;
-    width: 60vw;
+    font-size: 1.2rem;
+    width: 40vw;
+}
+
+.cita h3{
+font-size: 1rem;
 }
 
 /* FIN ESTILOS CITA */

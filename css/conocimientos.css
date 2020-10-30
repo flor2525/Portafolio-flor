@@ -18,6 +18,8 @@
 
 .texto1 p{
     margin-top: 2%;
+    text-align: center;
+
 }
 
 .skills{
@@ -32,8 +34,8 @@
 
 .skill{
     background-color: var(--verdePrimario);
-    width: 30%; 
-    height: 250px;
+    width: 200px; 
+    height: 200px;
     margin: 8px;
     display: flex;
     flex-flow: column nowrap;
@@ -49,7 +51,7 @@
 }
 
 .skill i{
-    font-size: 80px;
+    font-size: 70px;
     color: var(--claro);
 }
 

@@ -25,10 +25,11 @@
 .skills{
     display: flex;
     flex-flow: row wrap;
-    margin-top: 4%;
     width: 800px;
     box-sizing: border-box;
     justify-content: center;
+    margin: auto;
+    margin-top: 4%;
     margin-bottom: 7%;
 }
 
@@ -61,4 +62,13 @@
 
 
 /* FIN ESTILOS CONOCIMIENTOS */
+
+/* INICIO AJUSTES RESPONSIVE */
+
+@media(max-width:850px){
+    .skills{
+        width: 500px;
+        height: auto;
+    }
+}
 

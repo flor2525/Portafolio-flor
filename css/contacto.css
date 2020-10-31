@@ -21,8 +21,7 @@
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, .2);
     padding: 2%;
-    margin-top: 12vh;
-    margin-bottom: 12vh;
+    margin: 12vh auto;
 }
 
 /* FIN GENERAL DE LA SECCIÓN */
@@ -140,31 +139,66 @@ label{
 .escribime button:hover{
     color: var(--claro);
     background-color: var(--verdeSecundario);
-    cursor: pointer;
-}
-
-.formulario textarea{
-    border: 2px solid var(--salmon);
+    
 }
 
 .formulario input:focus, .formulario textarea:focus{
     outline-style: none;
+    cursor: pointer;
+    border: 2px solid var(--salmon);
 }
 
-.formulario input:invalid{
+/* .formulario input:invalid{
     border: 2px solid var(--salmon);
     background-color: vae(--claro);
-}
+} */
 
 .formulario input:valid{
     box-shadow: 0px 1px 3px 3px rgba(23,126,137,0.63);
-    background-color: vae(--claro);
+    background-color: var(--claro);
+    border: none;
 }
 
-
-
-
 /* FIN FORMULARIO */
+
+/* INICIO AJUSTES RESPONSIVE */
+
+@media(max-width: 1100px){
+    .contenedorcontacto{
+        flex-flow: column nowrap;
+        height: auto;
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .escribime{
+         margin-top: 5%;
+         border-top: 1px solid rgba(0, 0, 0, .2);
+         padding-top: 5%;
+    }
+
+    .escribime button{
+        justify-self: center;
+        align-self: center;
+    }
+}
+
+@media(max-width: 850px){
+    .contenedorcontacto{
+        width: 500px;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .row input{
+        width: 100%;
+    }
+}
+
 
 
 

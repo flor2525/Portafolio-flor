@@ -61,4 +61,14 @@ header nav ul li a:hover{
 
 /* FIN ESTILOS HEADER */
 
+/* INICIO AJUSTES RESPONSIVE */
+
+@media(max-width: 850px){
+    header{
+        width: 100vw;
+    }
+    header nav{
+        display: none;
+    }  
+}
 

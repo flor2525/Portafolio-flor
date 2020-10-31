@@ -45,3 +45,11 @@ color: #FEC3A6;
 }
 
 /* FIN ESTILOS FOOTER */
+
+/* AJUSTES RESPONSIVE */
+
+@media(max-width:500px){
+    .navfooter{
+        display: none;
+    }
+}

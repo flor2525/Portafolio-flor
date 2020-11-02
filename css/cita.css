@@ -3,19 +3,29 @@
 .cita{
     background-color: #177E89;
     width: 100%;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    /* justify-content: space-around; */
-    flex: 1 1 auto;
+    justify-content: center;
     color: #FAFAFA;
 }
+
+.containercita{
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 
 .cita i{
     font-size: 5rem;
     color: #FAFAFA;
-    margin-top: 3%;
+       
 }
 
 .cita blockquote{
@@ -24,13 +34,29 @@
     text-align: center;
     font-size: 1.2rem;
     width: 70vw;
-    margin-top: 5%;
 }
 
 .cita h3{
 font-size: 1rem;
-margin-top: 3%;
-margin-bottom: 5%;
 }
 
 /* FIN ESTILOS CITA */
+
+/* INICIO AJUSTES RESPONSIVE */
+
+@media(max-width:850px){
+    .cita i{
+        font-size: 3rem;
+    }
+
+    .cita blockquote{
+        font-size: 0.8rem;
+    }
+
+    .cita h3{
+        font-size: 0.5rem;
+    }
+
+}
+
+/* FIN AJUSTES RESPONSIVE */

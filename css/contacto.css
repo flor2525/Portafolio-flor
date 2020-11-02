@@ -21,7 +21,7 @@
     border-radius: 15px;
     border: 1px solid rgba(0, 0, 0, .2);
     padding: 2%;
-    margin: 12vh auto;
+    margin: 7% auto;
 }
 
 /* FIN GENERAL DE LA SECCIÓN */
@@ -92,7 +92,6 @@
 input{
     width: 100%;
     height: 20px;
-    width: 100%;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 15px;
@@ -207,8 +206,42 @@ label{
     }
 }
 
+@media(max-width:500px){
 
+    .contenedorcontacto{
+        width: 250px;
+    }
+    .contactame h2, .escribime h2{
+        font-size: 1.3rem;
+    }
 
+    .redes ul li i, .redes ul li a{
+        font-size: 10px;
+        padding: 0;
+        margin-right: 7px;
+    }
+
+    .contactame p, input, label, textarea{
+        font-size: 0.5rem;
+    }
+
+    input{
+    width: 100%;
+    height: 13px;
+    padding: 10px;
+    }
+
+    .formulario textarea{
+        padding-left: 10px;
+    }
+
+    .escribime button{
+        padding: 8px 12px;
+        font-size: 0.5rem;       
+    }
+}
+
+/* FIN INICIO AJUSTES RESPONSIVE */
 
 
 

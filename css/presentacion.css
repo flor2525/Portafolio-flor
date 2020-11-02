@@ -2,7 +2,6 @@
 /* ESTILOS PRESENTACIÓN */
 
 .presentacion{
-    margin-top: 2vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -29,7 +28,7 @@
 
 .sobremi h1{
     color: var(--verdePrimario);
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .sobremi button{
@@ -73,6 +72,7 @@
         justify-content: center;
         align-items: center;
         margin: auto;
+        padding-top: 10%;
     }
 
     .sobremi p, .sobremi h1, .sobremi h2{
@@ -81,5 +81,25 @@
 
     .ilustracion{
         margin: auto;
+    }
+}
+
+@media(max-width:500px){
+    .sobremi h2, .sobremi p{
+        font-size: 0.7rem;
+    }
+
+    .sobremi h1{
+        font-size: 1.2rem;
+    }
+    .sobremi button{
+        width: 100px;
+        height: 30px;
+        font-size: 0.4em;
+        padding: 3px 15px;    
+    }
+
+    .ilustracion{
+        width: 70%;
     }
 }

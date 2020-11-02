@@ -74,8 +74,22 @@
 
 @media(max-width:500px){
     .skills{
-        width: 300px;
+        width: 250px;
         height: auto;
+    }
+
+    .skill{
+        width: 100px;
+        height: 100px;
+    }
+
+    .skill p{
+        font-size: 10px;
+    }
+
+    .skill i{
+        font-size: 25px;
     }
 }
 
+/* FIN AJUSTES RESPONSIVE */

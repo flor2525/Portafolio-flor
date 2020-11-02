@@ -75,9 +75,7 @@
         height: auto;
         align-items: center;
         margin: auto;
-        margin-bottom: 7%;
-        margin-top: 4%;
-        
+        margin-bottom: 7%   
     }
 }
 
@@ -87,8 +85,27 @@
         height: auto;
         align-items: center;
         margin: auto;
-        margin-bottom: 7%;
-        margin-top: 4%;
-        
+        margin-bottom: 7%
     }
 }
+
+@media(max-width:500px){
+    .trabajos{
+        width: 300px;
+        height: auto;
+        margin-bottom: 7%
+    }
+
+    .trabajo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .trabajo a{
+        font-size: 13px;
+    }
+}
+
+/* FIN AJUSTES RESPONSIVE */
+
+

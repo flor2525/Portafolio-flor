@@ -9,6 +9,10 @@
     letter-spacing: 0.1em;
 }
 
+body{
+    /* overflow: hidden; */
+}
+
 .container{
     display: flex;
     flex-flow: column nowrap;
@@ -33,7 +37,7 @@ li{
 
 .titular{
     font-size: 2rem;
-    padding-top: 150px;
+    padding-top: 10%;
 }
 
 
@@ -56,6 +60,16 @@ li{
 
 /* FIN ESTILOS GENERALES */
 
+/* INICIO AJUSTES RESPONSIVE */
 
-   
+@media(max-width:500px){
+    .titular{
+        font-size: 1.3rem;
+    }
 
+    .bajada{
+        font-size: 0.5rem;
+    }
+}
+
+/* FIN AJUSTES RESPONSIVE */

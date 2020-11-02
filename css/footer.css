@@ -8,6 +8,7 @@ footer{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 .navfooter ul{
@@ -46,10 +47,21 @@ color: #FEC3A6;
 
 /* FIN ESTILOS FOOTER */
 
-/* AJUSTES RESPONSIVE */
+/* INICIO AJUSTES RESPONSIVE */
 
 @media(max-width:500px){
     .navfooter{
         display: none;
     }
+
+    .socialmedia a i{
+    font-size: 1rem;
+    }
+
+    .firma{
+        font-size: 0.7rem;
+    }
 }
+
+
+/* FIN AJUSTES RESPONSIVE */

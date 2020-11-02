@@ -86,11 +86,11 @@
 
 @media(max-width:500px){
     .sobremi h2, .sobremi p{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .sobremi h1{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .sobremi button{
         width: 100px;

@@ -212,7 +212,7 @@ label{
         width: 250px;
     }
     .contactame h2, .escribime h2{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .redes ul li i, .redes ul li a{
@@ -222,7 +222,7 @@ label{
     }
 
     .contactame p, input, label, textarea{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     input{

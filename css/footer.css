@@ -8,6 +8,8 @@ footer{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    position: relative;
+    box-shadow: 0 0 20px 0 rgba(46, 46, 46, 0.384);
     
 }
 
@@ -50,6 +52,10 @@ color: #FEC3A6;
 /* INICIO AJUSTES RESPONSIVE */
 
 @media(max-width:500px){
+    footer{
+        height: 20vh;
+
+    }
     .navfooter{
         display: none;
     }
@@ -59,7 +65,13 @@ color: #FEC3A6;
     }
 
     .firma{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (orientation: landscape) and (max-width:850px){
+    footer{
+        height: 50vh;
     }
 }
 

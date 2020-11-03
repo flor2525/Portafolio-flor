@@ -49,8 +49,8 @@
 }
 
 #porfolio{
-    margin-bottom: 30px;
-    margin-top: 60px;
+    margin-bottom: 4%;
+    margin-top: 7%;
 }
 
 .trabajo a{
@@ -75,7 +75,8 @@
         height: auto;
         align-items: center;
         margin: auto;
-        margin-bottom: 7%   
+        margin-bottom: 7%;
+        margin-top: 4%;   
     }
 }
 
@@ -85,7 +86,9 @@
         height: auto;
         align-items: center;
         margin: auto;
-        margin-bottom: 7%
+        margin-bottom: 7%;
+        margin-top: 4%; 
+        
     }
 }
 
@@ -93,7 +96,7 @@
     .trabajos{
         width: 300px;
         height: auto;
-        margin-bottom: 7%
+        margin-bottom: 7%;
     }
 
     .trabajo{
@@ -103,6 +106,10 @@
 
     .trabajo a{
         font-size: 13px;
+    }
+
+    .trabajo:hover{
+        border: 1px solid var(--verdePrimario);
     }
 }
 

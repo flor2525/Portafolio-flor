@@ -69,12 +69,13 @@ header nav ul li a:hover{
 
 /* INICIO AJUSTES RESPONSIVE */
 
-@media(max-width: 850px){
+@media(max-width: 600px){
     header{
         width: 100vw;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        position: absolute;
     }
     header nav{
         display: none;
@@ -82,6 +83,12 @@ header nav ul li a:hover{
     header .menu{
         display: flex;
         margin-left: 3%;
+    }
+}
+
+@media (orientation: landscape) and (max-width:850px){
+    header{
+        height: 20vh;
     }
 }
 

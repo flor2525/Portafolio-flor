@@ -38,12 +38,14 @@ li{
 .titular{
     font-size: 2rem;
     padding-top: 10%;
+    color: var(--oscuro);
 }
 
 
 .bajada{
     font-size: 1rem;
     width: 50vw;
+    color: var(--oscuro);
 }
 
 /* Variables de colores */

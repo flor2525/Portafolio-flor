@@ -45,6 +45,7 @@ font-size: 1rem;
 /* INICIO AJUSTES RESPONSIVE */
 
 @media(max-width:850px){
+
     .cita i{
         font-size: 3rem;
     }

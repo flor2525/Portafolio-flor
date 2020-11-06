@@ -91,7 +91,7 @@ menu-responsive{
 .nav-menu-resposive{
     display: none;
     background-color: var(--verdePrimario);
-    width: 150px;
+    width: 149px;
     margin-left: -70%;
 }
 .nav-menu-resposive ul{

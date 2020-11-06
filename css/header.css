@@ -65,6 +65,7 @@ header .navegador ul li a:hover{
 
 menu-responsive{
     display: flex;
+    margin-bottom: 15px;
 }
 
 #click-menu{
@@ -74,43 +75,50 @@ menu-responsive{
 .menu-responsive label{
     display: none;
     width: 30px;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 0;
+    margin: 0;
     cursor: pointer;
 }
 
 .menu-responsive label i{
     font-size: 25px;
     color: var(--oscuro);
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .menu-responsive label:hover i{
     color: var(--verdePrimario);
 }
 
-.nav-menu-resposive{
+.nav-menu-responsive{
     display: none;
-    background-color: var(--verdePrimario);
-    width: 149px;
+    background-color: rgba(254, 195, 166, 0.65);
+    width: 90px;
     margin-left: -70%;
+    margin-top: 0;
 }
-.nav-menu-resposive ul{
+.nav-menu-responsive ul{
     display: flex;
     flex-direction: column;
 }
 
-.nav-menu-resposive li{
-    padding: 15px 10px;
+.nav-menu-responsive li{
+    padding: 8px 0px;
     text-align: center;
-    border-top: 1px solid rgba(0, 0, 0, .2);
 }
 
-.nav-menu-resposive li:hover{
+.nav-menu-responsive li:nth-child(-n+2){
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.nav-menu-responsive li:hover{
     background-color:  rgba(0,0,0,0.3);
 }
 
-.nav-menu-resposive li a{
-    color: var(--claro);
+.nav-menu-responsive li a{
+    color: var(--oscuro);
+    font-size: 0.6rem;
 }
 
 
@@ -127,24 +135,24 @@ menu-responsive{
         width: 100vw;
         display: flex;
         justify-content: flex-start;
-        align-items: center;
-        position: absolute;
+        align-items: flex-end;
+        /* position: absolute; */
     }
     header .navegador{
         display: none;
     }
     
     .menu-responsive label{
-        display: block;
+        display: flex;
     }
 
-    .nav-menu-resposive{
+    .nav-menu-responsive{
         display: block;
         position: absolute;
     }
 
-    #click-menu:checked ~ .nav-menu-resposive{
-        margin: 0;
+    #click-menu:checked ~ .nav-menu-responsive{
+        margin-left: 2%;
     }
      
 }

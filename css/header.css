@@ -136,7 +136,7 @@ menu-responsive{
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
-        /* position: absolute; */
+        position: absolute;
     }
     header .navegador{
         display: none;
@@ -152,7 +152,7 @@ menu-responsive{
     }
 
     #click-menu:checked ~ .nav-menu-responsive{
-        margin-left: 2%;
+        margin-left: 0;
     }
      
 }

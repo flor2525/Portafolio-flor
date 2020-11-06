@@ -20,11 +20,27 @@
 </head>
 <body>
 
-        <!-- HEADER CON NAVEGACIÓN -->
+        <!-- INICIO HEADER-->
 
         <header>
-            <i class="fas fa-bars menu"></i>
-            <nav>
+
+            <!-- Menú hamburguesa -->
+
+            <div class="menu-responsive">
+                <input type="checkbox" id="click-menu">
+                <label for="click-menu"><i class="fas fa-bars menu"></i></label>
+                <nav class="nav-menu-resposive">
+                    <ul>
+                        <li><a href="#Mis conocimientos">Conocimientos</a></li>
+                        <li><a href="#Mis proyectos">Proyectos</a></li>
+                        <li><a href="#Contactame">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Barra de navegación -->
+
+            <nav class="navegador">
                 <ul>
                      <li><a href="#Hola">HOLA</a></li>
                      <li><a href="#Mis conocimientos">CONOCIMIENTOS</a></li>
@@ -34,10 +50,11 @@
             </nav>
         </header>
 
+         <!-- FIN HEADER-->
+
         <main class="container">
 
-
-        <!-- PRESENTACIÓN -->
+        <!-- INICIO PRESENTACIÓN -->
 
              <section class="presentacion" id="Hola">
                  <article class="sobremi">
@@ -55,8 +72,9 @@
                  </article> 
              </section>
 
+         <!-- FIN PRESENTACIÓN -->
 
-        <!-- CONOCIMIENTOS -->
+        <!-- INICIO CONOCIMIENTOS -->
 
              <section class="conocimientos" id="Mis conocimientos">
                  <article class="texto1">
@@ -91,8 +109,9 @@
                 </article>
              </section>
 
+         <!-- FIN CONOCIMIENTOS -->
 
-        <!-- CITA -->
+        <!-- INICIO CITA -->
 
             <section class="cita">
                 <article class="contenedor-cita">
@@ -102,8 +121,9 @@
                 </article>
             </section>
 
+        <!-- FIN CITA -->
 
-        <!-- PROYECTOS -->
+        <!-- INICIO PROYECTOS -->
 
             <section class="proyectos" id="Mis proyectos">
                  <article class="texto2">
@@ -156,8 +176,9 @@
                  </article>
             </section>
 
+        <!-- FIN PROYECTOS -->
 
-        <!-- CONTACTO -->
+        <!-- INICIO CONTACTO -->
 
             <section class="contacto" id="Contactame">
                 <div class="contenedor-contacto">
@@ -172,6 +193,8 @@
                             </ul>
                         </div>
                     </article>
+
+                    <!-- formulario de contacto -->
 
                     <article class="escribime">
                          <h2>Escribime</h2>
@@ -201,7 +224,9 @@
              </section>
          </main>
 
-        <!-- FOOTER CON NAVEGACIÓN -->
+         <!-- FIN CONTACTO -->
+
+         <!-- INICIO FOOTER -->
 
         <footer>
             <nav class="navfooter">
@@ -220,6 +245,8 @@
             <p class="firma">Hecho con 🧡 por Flor</p>
         </footer>
 
-   
+         <!-- FIN FOOTER -->
+
+
 </body>
 </html>

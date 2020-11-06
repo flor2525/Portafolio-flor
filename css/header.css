@@ -13,14 +13,10 @@ header{
     box-sizing: border-box;
 }
 
-/* Navegación */
+/* Inicio barra de navegación */
 
-header .menu{
-    display: none;
-    color: var(--oscuro);
-}
 
-header nav{
+header .navegador{
     display: flex;
     height: 50px;
     justify-content: center;
@@ -28,44 +24,101 @@ header nav{
     margin-right: 3%;
 }
 
-header nav ul{
+header .navegador ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-header nav ul li a{
+header .navegador ul li a{
     color: var(--oscuro);
     font-size: 0.8rem;
     padding: 0 20px;  
 }
 
-header nav ul li a:hover{
+header .navegador ul li a:hover{
     color: var(--verdePrimario);
 }
 
-.botoncontacto{
+.navegador .botoncontacto{
     background-color: var(--verdePrimario);
     border-radius: 15px;
     padding: 10px 15px;
 }
 
-.botoncontacto a{
+.navegador .botoncontacto a{
     color: var(--claro);
 }
 
-.botoncontacto:hover{
+.navegador .botoncontacto:hover{
     color: var(--claro);
     background-color: var(--verdeSecundario);
 }
 
-.botoncontacto a, .botoncontacto a:hover{
+.navegador .botoncontacto a, .navegador .botoncontacto a:hover{
     color: var(--claro);   
 }
 
-/* Fin navegación */
+/* Fin barra de navegación */
+
+/* Inicio menú hamburguesa */
+
+menu-responsive{
+    display: flex;
+}
+
+#click-menu{
+    display: none;
+}
+
+.menu-responsive label{
+    display: none;
+    width: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.menu-responsive label i{
+    font-size: 25px;
+    color: var(--oscuro);
+}
+
+.menu-responsive label:hover i{
+    color: var(--verdePrimario);
+}
+
+.nav-menu-resposive{
+    display: none;
+    background-color: var(--verdePrimario);
+    width: 150px;
+    margin-left: -70%;
+}
+.nav-menu-resposive ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-menu-resposive li{
+    padding: 15px 10px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.nav-menu-resposive li:hover{
+    background-color:  rgba(0,0,0,0.3);
+}
+
+.nav-menu-resposive li a{
+    color: var(--claro);
+}
+
+
+/* Fin menú hamburguesa */
 
 /* FIN ESTILOS HEADER */
+
+
 
 /* INICIO AJUSTES RESPONSIVE */
 
@@ -77,13 +130,23 @@ header nav ul li a:hover{
         align-items: center;
         position: absolute;
     }
-    header nav{
+    header .navegador{
         display: none;
-    }  
-    header .menu{
-        display: flex;
-        margin-left: 3%;
     }
+    
+    .menu-responsive label{
+        display: block;
+    }
+
+    .nav-menu-resposive{
+        display: block;
+        position: absolute;
+    }
+
+    #click-menu:checked ~ .nav-menu-resposive{
+        margin: 0;
+    }
+     
 }
 
 /* @media (max-width:900px) and (orientation: landscape){

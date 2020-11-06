@@ -86,11 +86,11 @@ header nav ul li a:hover{
     }
 }
 
-@media (orientation: landscape) and (max-width:850px){
+/* @media (max-width:900px) and (orientation: landscape){
     header{
         height: 20vh;
     }
-}
+} */
 
 /* FIN AJUSTES RESPONSIVE */
 

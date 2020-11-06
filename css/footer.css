@@ -69,11 +69,11 @@ color: #FEC3A6;
     }
 }
 
-@media (orientation: landscape) and (max-width:850px){
+/* @media (orientation: landscape) and (max-width:850px){
     footer{
         height: 50vh;
     }
-}
+} */
 
 
 /* FIN AJUSTES RESPONSIVE */

@@ -11,7 +11,7 @@
     color: #FAFAFA;
 }
 
-.containercita{
+.contenedor-cita{
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -22,13 +22,13 @@
 }
 
 
-.cita i{
+.contenedor-cita i{
     font-size: 5rem;
     color: #FAFAFA;
        
 }
 
-.cita blockquote{
+.contenedor-cita blockquote{
     display: flex;
     flex-flow: column wrap;
     text-align: center;
@@ -36,7 +36,7 @@
     width: 70vw;
 }
 
-.cita h3{
+.contenedor-cita h3{
 font-size: 1rem;
 }
 
@@ -46,15 +46,15 @@ font-size: 1rem;
 
 @media(max-width:850px){
 
-    .cita i{
+    .contenedor-cita i{
         font-size: 3rem;
     }
 
-    .cita blockquote{
+    .contenedor-cita blockquote{
         font-size: 0.8rem;
     }
 
-    .cita h3{
+    .contenedor-cita h3{
         font-size: 0.5rem;
     }
 

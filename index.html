@@ -3,6 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Florencia Dell'Anno">
+    <meta name="description" content="Portafolio con conocimientos y proyectos">
+    <meta name="keywords" content="portafolio, developer, Front End, desarrollo web, programación ">
+
+    <meta property="og:title" content="Portafolio Florencia Dell'Anno">
+    <meta property="og:description" content="Portafolio con conocimientos y proyectos">
+    <meta property="og:type" content="article">
+    <meta property="og:site name" content="portafolio-flor">
+    <meta property="og:url" content="https://flor2525.github.io/Portafolio-flor/">
+    <meta property="og:image" content="https://github.com/flor2525/Portafolio-flor/blob/master/img/ilustracion.png?raw=true">
+    
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0fbd452ac3.js" crossorigin="anonymous"></script>
@@ -31,41 +43,41 @@
                 <label for="click-menu"><i class="fas fa-bars menu"></i></label>
                 <nav class="nav-menu-responsive">
                     <ul>
-                        <li><a href="#Mis conocimientos">Conocimientos</a></li>
-                        <li><a href="#Mis proyectos">Proyectos</a></li>
-                        <li><a href="#Contactame">Contacto</a></li>
+                        <li class="sin-estilo"><a href="#Mis-conocimientos" class="sin-estilo">Conocimientos</a></li>
+                        <li class="sin-estilo"><a href="#Mis-proyectos" class="sin-estilo">Proyectos</a></li>
+                        <li class="sin-estilo"><a href="#Contactame" class="sin-estilo">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
             
             <!-- Barra de navegación -->
 
-            <nav class="navegador">
+            <nav class="header-navegador">
                 <ul>
-                     <li><a href="#Hola">HOLA</a></li>
-                     <li><a href="#Mis conocimientos">CONOCIMIENTOS</a></li>
-                     <li><a href="#Mis proyectos">PROYECTOS</a></li>
-                     <li class="botoncontacto"><a href="#Contactame">CONTACTO</a></li>
+                     <li class="sin-estilo"><a href="#Hola" class="sin-estilo">HOLA</a></li>
+                     <li class="sin-estilo"><a href="#Mis-conocimientos" class="sin-estilo">CONOCIMIENTOS</a></li>
+                     <li class="sin-estilo"><a href="#Mis-proyectos" class="sin-estilo">PROYECTOS</a></li>
+                     <li class="botoncontacto sin-estilo"><a href="#Contactame" class="sin-estilo">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
 
          <!-- FIN HEADER-->
 
-        <main class="container">
+        <main class="contenedor-general">
 
         <!-- INICIO PRESENTACIÓN -->
 
              <section class="presentacion" id="Hola">
-                 <article class="sobremi">
+                 <article class="presentacion-sobremi">
                      <h2>¡Hola! Soy</h2>
                      <h1>Florencia Dell'Anno</h1>
                      <p>Licenciada en Comunicación y Desarrolladora Frontend WIP</p>
                      <button>
-                         <a href="#Mis proyectos">LO QUE HAGO</a>
+                         <a href="#Mis-proyectos" class="sin-estilo">LO QUE HAGO</a>
                     </button>
                  </article>
-                 <article class="ilustracion">
+                 <article class="presentacion-ilustracion">
                      <picture>
                          <img src="./img/ilustracion.png" alt="Trabajando">
                      </picture>
@@ -76,33 +88,33 @@
 
         <!-- INICIO CONOCIMIENTOS -->
 
-             <section class="conocimientos" id="Mis conocimientos">
-                 <article class="texto1">
+             <section class="conocimientos" id="Mis-conocimientos">
+                 <article class="conocimientos-texto">
                      <h2 class="titular">Mis conocimientos</h2>
-                     <p class="bajada">A continuación podés ver los lenguajes y tecnologías que manejo y aplico a los distintos proyectos.</p>
+                     <p class="bajada">A continuación podés ver los lenguajes y las tecnologías que aplico a los distintos proyectos.</p>
                  </article>
-                 <article class="skills">
-                     <div class="skill">
+                 <article class="conocimientos-grilla">
+                     <div class="conocimientos-item">
                          <i class="devicon-html5-plain"></i>
                          <p>HTML 5</p>
                     </div>
-                    <div class="skill">
+                    <div class="conocimientos-item">
                         <i class="devicon-css3-plain"></i>
                         <p>CSS 3</p>
                     </div>
-                    <div class="skill">
+                    <div class="conocimientos-item">
                         <i class="devicon-sass-original"></i>
                         <p>Sass</p> 
                     </div>
-                    <div class="skill">
+                    <div class="conocimientos-item">
                         <i class="devicon-javascript-plain"></i>
                         <p>JavaScript</p>
                     </div>
-                    <div class="skill">
+                    <div class="conocimientos-item">
                         <i class="devicon-react-original"></i>
                         <p>React</p> 
                     </div>
-                    <div class="skill">
+                    <div class="conocimientos-item">
                         <i class="devicon-git-plain"></i>
                         <p>GIT</p>
                     </div>  
@@ -125,50 +137,50 @@
 
         <!-- INICIO PROYECTOS -->
 
-            <section class="proyectos" id="Mis proyectos">
-                 <article class="texto2">
+            <section class="proyectos" id="Mis-proyectos">
+                 <article class="proyectos-texto">
                      <h2 class="titular">Mis proyectos</h2>
                      <p class="bajada">Este viaje recién está empezando. La mayoría de los trabajos están en construcción.</p>
                  </article>
-                 <article class="trabajos">
-                    <div class="trabajo">
-                        <a href="#">
+                 <article class="proyectos-grilla">
+                    <div class="proyectos-item">
+                        <a href="#" class="sin-estilo">
                             <img src="./img/captura-portafolio.png" alt="Portfolio" id="porfolio" width="90%">
                             <p>Portafolio</p>
                         </a>
                     </div>
-                    <div class="trabajo">
-                        <a href="#">
+                    <div class="proyectos-item">
+                        <a href="#" class="sin-estilo">
                             <img src="./img/construccion .png" alt="Generador de memes" width="90%">
                             <p>Generador de memes</p> 
                         </a>
                     </div>
-                    <div class="trabajo">
-                        <a href="#">
+                    <div class="proyectos-item">
+                        <a href="#" class="sin-estilo">
                             <img src="./img/construccion .png" alt="Match 3" width="90%">
                             <p>Match 3</p>
                         </a>
                     </div>
-                    <div class="trabajo">
-                        <a href="#">
+                    <div class="proyectos-item">
+                        <a href="#" class="sin-estilo">
                             <img src="./img/construccion .png" alt="Controlador de gastos" width="90%">
                             <p>Controlador de gastos</p>
                         </a>
                     </div>
-                    <div class="trabajo">
-                        <a href="#">
+                    <div class="proyectos-item">
+                        <a href="#" class="sin-estilo">
                             <img src="./img/construccion .png" alt="Administrador de reuniones" width="90%">
                             <p>Administrador de reuniones</p>
                         </a>
                     </div>
-                    <div class="trabajo">
-                        <a href="#">
+                    <div class="proyectos-item">
+                        <a href="#" class="sin-estilo">
                             <img src="./img/construccion .png" alt="Todo app" width="90%">
                             <p>Todo app</p>
                         </a>
                     </div>
-                    <div class="trabajo">
-                        <a href="#">
+                    <div class="proyectos-item">
+                        <a href="#" class="sin-estilo">
                             <img src="./img/construccion .png" alt="Buscador de peliculas" width="90%">
                             <p>Buscador de películas</p>
                         </a>
@@ -185,11 +197,11 @@
                     <article class="contactame">
                         <h2>Contactame</h2>
                         <p>Si tenés una buena idea dándote vueltas y vueltas en la cabeza ¡La hagamos grande!</p>
-                        <div class="redes">
+                        <div class="contactame-redes">
                             <ul>
-                                <li><a href="https://www.linkedin.com/in/maria-florencia-dell-anno-417094118/" target="_blank"><i class="fab fa-linkedin-in"></i>María Florencia Dell'Anno</a></li>
-                                <li><a href="https://github.com/flor2525" class="Github" target="_blank"><i class="fab fa-github-alt"></i>flor2525</a></li>
-                                <li><a href="#" class="Mail"><i class="far fa-envelope" target="_blank"></i>flodell25@gmail.com</a></li>
+                                <li class="sin-estilo"><a href="https://www.linkedin.com/in/maria-florencia-dell-anno-417094118/" class="linkedin sin-estilo" target="_blank"><i class="fab fa-linkedin-in"></i>María Florencia Dell'Anno</a></li>
+                                <li class="sin-estilo"><a href="https://github.com/flor2525" class="Github sin-estilo" target="_blank"><i class="fab fa-github-alt"></i>flor2525</a></li>
+                                <li class="sin-estilo"><a href="mailto:flodell25@gmail.com?Subject=Contacto desde el Portafolio" class="Mail sin-estilo" target="_blank"><i class="far fa-envelope"></i>flodell25@gmail.com</a></li>
                             </ul>
                         </div>
                     </article>
@@ -198,7 +210,7 @@
 
                     <article class="escribime">
                          <h2>Escribime</h2>
-                         <form class="formulario">
+                         <form class="escribime-formulario">
                              <div class="row">
                                 <div>
                                      <label for="UserName">Nombre*</label>
@@ -229,20 +241,20 @@
          <!-- INICIO FOOTER -->
 
         <footer>
-            <nav class="navfooter">
+            <nav class="footer-navegador">
                 <ul>
-                    <li><a href="#Hola">HOLA</a></li>
-                    <li><a href="#Mis conocimientos"">CONOCIMIENTOS</a></li>
-                    <li><a href="#Mis proyectos">PROYECTOS</a></li>
-                    <li><a href="#Contactame">CONTACTO</a></li>
+                    <li class="sin-estilo"><a href="#Hola" class="sin-estilo">HOLA</a></li>
+                    <li class="sin-estilo"><a href="#Mis conocimientos" class="sin-estilo">CONOCIMIENTOS</a></li>
+                    <li class="sin-estilo"><a href="#Mis proyectos" class="sin-estilo">PROYECTOS</a></li>
+                    <li class="sin-estilo"><a href="#Contactame" class="sin-estilo">CONTACTO</a></li>
                 </ul> 
             </nav>
-            <div class="socialmedia">
-                <a href="https://www.linkedin.com/in/maria-florencia-dell-anno-417094118/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://github.com/flor2525" target="_blank"><i class="fab fa-github-alt"></i></a>
-                <a href="#" target="_blank"><i class="far fa-envelope"></i></a>
+            <div class="footer-socialmedia">
+                <a href="https://www.linkedin.com/in/maria-florencia-dell-anno-417094118/" target="_blank" class="sin-estilo"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/flor2525" target="_blank" class="sin-estilo"><i class="fab fa-github-alt"></i></a>
+                <a href="#" target="_blank" class="sin-estilo"><i class="far fa-envelope"></i></a>
             </div>
-            <p class="firma">Hecho con 🧡 por Flor</p>
+            <p class="footer-firma">Hecho con 🧡 por Flor</p>
         </footer>
 
          <!-- FIN FOOTER -->

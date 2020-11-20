@@ -40,6 +40,7 @@
 }
 
 .presentacion-sobremi button{
+    outline-style: none;
     width: 170px;
     height: 50px;
     border-radius: 15px;

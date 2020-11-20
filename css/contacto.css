@@ -126,6 +126,7 @@
 }
 
 .escribime-formulario button{
+    outline-style: none;
     background-color: var(--verdePrimario);
     border: none;
     border-radius: 15px;
